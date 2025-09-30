@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: "communicator-producer"
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    connection-timeout: 10s
+      #  cloud:
+      #   function:
+      #      definition: sendMessage
+      #    stream:
+      #      bindings:
+    #        sendCommunication-out-0:
+    #          destination: send-communicator
+    #          contentType: application/json
+    publisher-confirm-type: correlated
+    publisher-returns: true

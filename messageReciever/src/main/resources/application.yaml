@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: "communicator-consumer"
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    connection-timeout: 10s
+    #cloud:
+    #function:
+    #definition: email;sms
+    #    stream:
+    #bindings:
+    #email-in-0:
+    # destination: send-communicator
+    # group: email-group
+    # contentType: application/json
+    #sms-in-0:
+    # destination: send-communicator
+    # group: sms-group
+    # contentType: application/json
