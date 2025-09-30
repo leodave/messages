@@ -1,0 +1,1 @@
+This is a java Spring microservice that uses RabbitMQ to send and recieve messages for async communication. 
