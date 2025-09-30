@@ -1,1 +1,2 @@
 This is a java Spring microservice that uses RabbitMQ to send and recieve messages for async communication. 
+Using RabbitTemplates but also implemented Spring functions with yaml configurations for simpler use
